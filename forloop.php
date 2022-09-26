@@ -8,12 +8,18 @@
 </head>
 <body>
 <a href="index.php">Home</a>
-    <h1 style="color: teal">Exam Results Using For Loop</h1>
+    <h1 style="color: teal">For Loop</h1>
 <?php     
-    //A switch statement that will carry out an action based on the value of the variable
-    
-    $grade = 'A';
-   
+    //A for loop statement that will carry out an action based on the value of the variable
+    for($count = 0; $count < 20; $count++){
+        $count = $count + 1;
+        echo "<p> HELLO WORLD : The Count is: $count </P>";
+        $count = $count -1;
+    }
+    for($count = 0; $count < 20; $count++){
+        $total = $count+1;
+    }
+    echo "<p>The Total number of Count is: $total</p>";
 ?>
 </body>
 </html>
