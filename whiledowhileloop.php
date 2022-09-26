@@ -17,21 +17,22 @@
     }*/
 
      while($grade < 10){
-        echo '<p> I AM LESS THAN 10!</P>';
+        echo "<p> I AM LESS THAN 10!: I am $grade </P>";
+
         $grade++;
     }
 
-    echo 'Exit Loop!';
+    echo 'Exit While Loop!';
 ?>
 
 <h1 style="color: teal">Do-While Loop</h1>
 <?php
 //Post Condition loop
     $grade = 0;
-    do{ echo '<p> I AM LESS THAN 10!</P>';
+    do{ echo '<p> I AM LESS THAN 10!: I am '.$grade.'</P>';
         $grade++;
     }while($grade < 10);
-        echo 'Exit Loop!';
+        echo 'Exit Do-While Loop!';
 
 ?>
 
