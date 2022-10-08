@@ -8,7 +8,7 @@
 </head>
 <body>   
     <a href="index.php">Home</a>
-
+    <hr/>
     <?php     
         //An if statement that will carry out an action based on the value of the variable
 

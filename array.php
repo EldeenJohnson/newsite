@@ -9,7 +9,7 @@
 <body>
 <a href="index.php">Home</a>
     <h1 style="color: teal">Arrays</h1>
-
+    <hr/>
     <?php
         // a variable
         $num = 3;

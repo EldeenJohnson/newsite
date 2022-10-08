@@ -8,6 +8,7 @@
 </head>
 <body>
     <h2> Follow each link to the page example</h2>
+    <hr/>
     <ul>
         <li><a href="array.php">Simple Array and Printouts</a></li>
         <li><a href="forloop.php">Simple For Loop</a></li>
@@ -15,7 +16,9 @@
         <li><a href="ifstatement.php">Simple If Statement</a></li>
         <li><a href="switchstatement.php">Simple Switch Statement</a></li>
         <li><a href="stringmanip.php">Simple String Manipulation</a></li>
+        <li><a href="datetimemanip.php">Simple Date and Time Manipulation</a></li>
     </ul>
+    <hr/>
 
     <!-- Basic HTML -->
     <h1>Hello HTML - PHP Primer</h1>

@@ -9,7 +9,7 @@
 <body>
     <a href="index.php">Home</a>
     <h1 style="color: teal">String Manipulation</h1>
-
+    <hr/>
     <?php
     //concatenation of strings
             $phrase1 = "Students who came late";
@@ -45,12 +45,6 @@
             echo 'Trim spaces to the right: '. "A" . rtrim(" B C D ") . "E" . '<br/>';
 
             echo 'Replace string with another: '.str_replace("Stand", "Sit", $phrase2). '<br/>';
-
-            
-
-
-             
-
 
     ?>
     

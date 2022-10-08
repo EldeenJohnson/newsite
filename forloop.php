@@ -9,6 +9,7 @@
 <body>
 <a href="index.php">Home</a>
     <h1 style="color: teal">For Loop</h1>
+    <hr/>
 <?php     
     //A for loop statement that will carry out an action based on the value of the variable
     for($count = 0; $count < 20; $count++){

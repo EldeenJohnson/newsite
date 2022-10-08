@@ -9,6 +9,7 @@
 <body>
     <a href="index.php">Home</a>
     <h1 style="color: teal">While Loop</h1>
+    <hr/>
 <?php
     $grade = 0;
     //INFINITE LOOP
