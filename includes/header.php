@@ -10,17 +10,19 @@
     <title>PHP Primer - <?php echo $title ?></title>
 </head>
 <body>
+    <div class = "container">
     <h2> Follow each link to the page example</h2>
     <hr/>
-    <ul>
-        <a href="index.php">Home</a>
-        <li><a href="array.php">Simple Array and Printouts</a></li>
-        <li><a href="forloop.php">Simple For Loop</a></li>
-        <li><a href="whiledowhileloop.php">Simple While/Do While Loop</a></li>
-        <li><a href="ifstatement.php">Simple If Statement</a></li>
-        <li><a href="switchstatement.php">Simple Switch Statement</a></li>
-        <li><a href="stringmanip.php">Simple String Manipulation</a></li>
-        <li><a href="datetimemanip.php">Simple Date and Time Manipulation</a></li>
-        <li><a href="functions.php">Simple functions</a></li>
+    <ul class = "nav">
+        <li class="nav-item"><a class = "nav-link" href="index.php">Home</a></li>
+        <li class="nav-item"><a class = "nav-link" href="array.php">Simple Array and Printouts</a></li>
+        <li class="nav-item"><a class = "nav-link" href="forloop.php">Simple For Loop</a></li>
+        <li class="nav-item"><a class = "nav-link" href="whiledowhileloop.php">Simple While/Do While Loop</a></li>
+        <li class="nav-item"><a class = "nav-link" href="ifstatement.php">Simple If Statement</a></li>
+        <li class="nav-item"><a class = "nav-link" href="switchstatement.php">Simple Switch Statement</a></li>
+        <li class="nav-item"><a class = "nav-link" href="switchstatement.php">Simple Switch Statement</a></li>
+        <li class="nav-item"><a class = "nav-link" href="stringmanip.php">Simple String Manipulation</a></li>
+        <li class="nav-item"><a class = "nav-link" href="datetimemanip.php">Simple Date and Time Manipulation</a></li>
+        <li class="nav-item"><a class = "nav-link" href="functions.php">Simple functions</a></li>
     </ul>
     <hr/>
