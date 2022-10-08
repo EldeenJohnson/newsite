@@ -3,7 +3,7 @@
     include 'includes/header.php'; ?> 
 
 <body>
-    <h1 style="color: teal">While Loop</h1>
+    <h1 style="color: teal"><?php echo $title ?></h1>
     <hr/>
 <?php
     $grade = 0;

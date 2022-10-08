@@ -1,9 +1,9 @@
 <?php 
-    $title = "Strings";
+    $title = "Strings Manipulation";
     include 'includes/header.php'; ?> 
 
 <body>
-    <h1 style="color: teal">String Manipulation</h1>
+    <h1 style="color: teal"><?php echo $title ?></h1>
     <hr/>
     <?php
     //concatenation of strings

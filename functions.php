@@ -3,7 +3,7 @@
     include 'includes/header.php'; ?> 
 
 <body>
-    <h1 style="color: teal">Functions</h1>
+    <h1 style="color: teal"><?php echo $title ?></h1>
     <?php
         /* Defining a Function */
 

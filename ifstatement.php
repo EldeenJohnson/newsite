@@ -1,9 +1,9 @@
 <?php 
-    $title = "IfStatement";
+    $title = "If Statement";
     include 'includes/header.php'; ?> 
 
 <body> 
-    <hr/>
+    <h1 style="color: teal"><?php echo $title ?></h1>
     <?php     
         //An if statement that will carry out an action based on the value of the variable
 

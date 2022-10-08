@@ -1,9 +1,9 @@
 <?php 
-    $title = "Switch";
+    $title = "Switch Statements";
     include 'includes/header.php'; ?> 
 
 <body>
-    <h1 style="color: teal">Exam Results Using Switch Statements</h1>
+    <h1 style="color: teal"><?php echo $title ?></h1>
     <hr/>
 <?php     
     //A switch statement that will carry out an action based on the value of the variable

@@ -1,9 +1,9 @@
 <?php 
-    $title = "DateTime"; 
+    $title = "DateTime Manipulation"; 
     include 'includes/header.php'; ?> 
 
 <body>
-    <h1 style="color: teal">DateTime Manipulation</h1>
+    <h1 style="color: teal"><?php echo $title ?></h1>
     <hr/>
     <?php
             $datenow = getdate();

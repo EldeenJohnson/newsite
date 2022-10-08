@@ -1,9 +1,9 @@
 <?php 
-    $title = "Array";
+    $title = "Arrays";
     include 'includes/header.php'; ?> 
 
 <body>
-    <h1 style="color: teal">Arrays</h1>
+    <h1 style="color: teal"><?php echo $title ?></h1>
     <hr/>
     <?php
         // a variable
