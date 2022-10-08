@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Primer - If Statement</title>
-</head>
-<body>   
-    <a href="index.php">Home</a>
+<?php 
+    $title = "IfStatement";
+    include 'includes/header.php'; ?> 
+
+<body> 
     <hr/>
     <?php     
         //An if statement that will carry out an action based on the value of the variable
@@ -35,5 +30,4 @@
         }
     ?>
     
-</body>
-</html>
+    <?php require 'includes/footer.php' ?>
